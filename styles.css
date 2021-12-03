@@ -137,8 +137,6 @@ footer span {
 .attribution {
   font-size: 11px;
   text-align: center;
-  position: fixed;
-  bottom: 0;
   width: 100%;
   background-color: var(--very-dark-blue-card-bg);
   display: flex;
