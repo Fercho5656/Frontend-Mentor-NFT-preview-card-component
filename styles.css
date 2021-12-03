@@ -99,6 +99,10 @@ span {
   word-break: break-word;
 }
 
+.attribution > .footer-text {
+  color: var(--white);
+}
+
 .title {
   font-size: 1.5rem;
   font-weight: 600;
@@ -133,8 +137,14 @@ footer span {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--very-dark-blue-card-bg);
+  display: flex;
+  justify-content: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--cyan-primary)
 }
