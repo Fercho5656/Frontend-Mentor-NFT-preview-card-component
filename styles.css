@@ -40,10 +40,9 @@ hr {
 /* Alignments */
 body {
   background-color: var(--very-dark-blue-main-bg);
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 .info {
   display: flex;
